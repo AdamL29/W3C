@@ -1,11 +1,12 @@
 html{
-    background-color: bisque;
+    background-color: orange;
 }
 .container{
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 500px;
+    column-gap: 3px;
 }
 #one{
     background-color: red;
