@@ -1,0 +1,36 @@
+html{
+    background-color: bisque;
+}
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+#one{
+    background-color: red;
+    border: 2px black solid;
+}
+#two{
+    background-color: green;
+    border: 2px black solid;
+}
+#three{
+    background-color: blue;
+    border: 2px black solid;
+}
+#four{
+    background-color: purple;
+    border: 2px black solid;
+}
+
+
+
+
+
+
+
+
+
+
+
